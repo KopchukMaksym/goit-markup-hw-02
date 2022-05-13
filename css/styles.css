@@ -27,7 +27,7 @@ body {
 
   font-family: Raleway;
   font-size: 26px;
-  line-height: 1,19;
+  line-height: 1.19;
 }
 
 .logo-web {
@@ -39,7 +39,7 @@ body {
 
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
   
 }
@@ -55,7 +55,7 @@ letter-spacing: 0.02em;
 .contacts-header {
 font-weight: 500;
 font-size: 14px;
-line-height: 1,4px;
+line-height: 1.4;
 letter-spacing: 0.02em;
 }
 
@@ -87,7 +87,7 @@ letter-spacing: 0.02em;
 
   font-weight: 900;
   font-size: 44px;
-  line-height: 1,5;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -102,7 +102,7 @@ letter-spacing: 0.02em;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1,88;
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
@@ -115,14 +115,14 @@ letter-spacing: 0.02em;
 .feature-list .title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
 .feature-list.subtitle {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1,71;
+  line-height: 1.71;
 }
 
 .feature-list .title {
@@ -132,21 +132,21 @@ letter-spacing: 0.02em;
 .section {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,17;
+  line-height: 1.17;
   text-align: center;
 }
 
 .section-list {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,19;
+  line-height: 1.19;
   text-align: center;
 }
 
 .section-subtitle {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,19;
+  line-height: 1.19;
   text-align: center;
 }
 
@@ -154,7 +154,7 @@ letter-spacing: 0.02em;
 .contacts-footer {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1,71;
+  line-height: 1.71;
 }
 
 .contacts-footer .mail {
@@ -196,7 +196,7 @@ letter-spacing: 0.02em;
 
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,88px;
+  line-height: 1.88;
 }
 
 .filter-button {
@@ -208,7 +208,7 @@ letter-spacing: 0.02em;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,63;
+  line-height: 1.63;
   text-align: center;
 
   cursor: pointer;
