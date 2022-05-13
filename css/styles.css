@@ -10,7 +10,10 @@
 }
 body {
   background-color: var(--primary-bg-color);
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -21,6 +24,10 @@ body {
 
 .logo {
   color: var(--title-text-color);
+
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1,19;
 }
 
 .logo-web {
@@ -29,6 +36,11 @@ body {
 
 .site-nav .link {
   color: var(--title-text-color);
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
   
 }
 
@@ -39,6 +51,12 @@ body {
 
 .site-nav .link.current{
   color: var(--accent-color);
+}
+.contacts-header {
+font-weight: 500;
+font-size: 14px;
+line-height: 1,4px;
+letter-spacing: 0.02em;
 }
 
 .contacts-header .mail {
@@ -66,6 +84,13 @@ body {
 
 .slogan-title {
   color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1,5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
@@ -73,13 +98,62 @@ body {
   background-color: var(--accent-color);
   border: 0;
   border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1,88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+}
+
+.feature-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1,14;
+  text-transform: uppercase;
+}
+
+.feature-list.subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,71;
 }
 
 .feature-list .title {
   color: var(--title-text-color);
 }
 
+.section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1,17;
+  text-align: center;
+}
+
+.section-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,19;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1,19;
+  text-align: center;
+}
+
 /* footer */
+.contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,71;
+}
 
 .contacts-footer .mail {
   color: var(--grey-light);
@@ -108,10 +182,19 @@ body {
 
 .portfolio-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .description {
   color: var(--grey);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1,88px;
 }
 
 .filter-button {
@@ -119,9 +202,21 @@ body {
   background-color: var(--grey-ultra-light);
   border: 0;
   Fill: Solid;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,63;
+  text-align: center;
 }
 
 .filter-button.current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color)
+}
+
+.filter-button:hover, 
+.filter-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color)
 }
