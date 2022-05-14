@@ -1,13 +1,13 @@
 /* styles for index.html */
 :root {
---primary-text-color: #2a2a2a;
---title-text-color: #212121;
---accent-color: #2196F3;
---primary-white-color: #FFFFFF;
---grey: #757575;
---grey-light: rgba(255, 255, 255, 0.6);
---grey-ultra-light: #F5F4FA;
---background-color: #2F303A;
+  --primary-text-color: #2a2a2a;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --primary-white-color: #FFFFFF;
+  --grey: #757575;
+  --grey-light: rgba(255, 255, 255, 0.6);
+  --grey-ultra-light: #F5F4FA;
+  --background-color: #2F303A;
 }
 body {
   background-color: var(--primary-bg-color);
@@ -52,10 +52,10 @@ body {
 
 .nav-link,
 .contacts-link {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   }
 
 .nav-link {
@@ -163,7 +163,7 @@ letter-spacing: 0.02em;
 .footer .contacts-link {
   color: var(--grey-light);
 
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
 }
 
